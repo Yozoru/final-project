@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asido Digital Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="welcome">
+        <button id="view-site">
+            <span>View Portfolio</span>
+            <span class="hover-image"><img src="point.png" alt="Hover Image"></span>
+            <span class="hover-image2"><img src="point2.png" alt="Hover Image2"></span>
+            <span class="hover-image3"><img src="point3.png" alt="Hover Image3"></span>
+            <span class="hover-image4"><img src="point4.png" alt="Hover Image4"></span>
+        </button>
+    </div>
+    <div id="content" class="hidden">
+    <header class="header">
+        <a href="#home" class="pt">PORTFOLIO</a>
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+        <div id="menu-icon" class="menu-icon">&#9776;</div>
+    </header>
+    <section id="home" class="content">
+        <div class="about-content">
+            <p>Hello !!!</p>
+            <h1>I'm Van Amiel James C. Asido</h1>
+            <h2>BSITCST Student at FEU Tech</h2>
+            <p class="description">
+                Welcome to my Digital Portfolio, the result of my experience with the IT0043 - TC01 BSITCST course. I designed this platform with a beautiful dark theme to increase visual appeal while reducing eye strain. 
+                The navigation is fluid, with a fixed header and flexible navbar for simple exploration across devices. Each element, from animated backdrops to vivid project presentations, is visually appealing, with high-quality photos and well-balanced color palettes. 
+                Dive into my comprehensive biography, browse interactive skill charts, and see a variety of projects that reflect my accomplishments. Stay in touch via the contact section for professional queries and networking possibilities.
+                This portfolio is more than simply a showcase for my work; it displays my dedication, creativity, and passion for technology, encouraging you to see my development and envisage future partnerships. 
+            </p>
+        </div>
+        <div class="background-image">
+            <img src="banpic.png" alt="">
+        </div>
+    </section>
+    <section id="about" class="about">
+    <div id="about-me" class="about-me-section">
+        <div class="about-me-content">
+            <img src="formal.png" alt="1bai1">
+            <div class="biography">
+                <h2>About Me</h2>
+                <p>My full name is <font color="000000"><b>Van Amiel James C. Asido</b></font>, I am from Taguig City. I am currently studying at FEU Tech Manila. I am 19 years old, and currently single. My strand in Highschool is ICT so I know a thing or two about HTML, CSS, and JavaScript.</p>
+                <p>My favorite color is <font color="#000000"><b>Black</b></font> as you can already tell, I decided to pursue the IT career path since I was inspired by my uncle's friend when I saw him coding and fixing computer related stuff. My WPM is <font color="000000"><b>95</b></font> and I am still seeking to improve it. My other
+                    hobbies are solving rubik's cubes, my best time for the 3x3 cube is <font color="000000"><b>19 seconds.</b></font>
+                </p>
+                <h3>Skills & Interest</h3>
+                <div class="skills">
+                    <span>GAMING</span>
+                    <span>READING</span>
+                    <span>SPORTS</span>
+                    <span>WRITING</span>
+                    <span>DESIGN</span>
+                </div>
+                <div class="bar-graph-container">
+                    <canvas id="skillsChart"></canvas>
+                </div>
+                <div class="social-media">
+                    <a href="https://web.telegram.org/k/#6160187749"><img src="tele.webp" alt="Telegram"></a>
+                    <a href="https://discordapp.com/users/1141635148027265075"><img src="dc.jpg" alt="Discord"></a>
+                    <a href="https://www.facebook.com/vanamiel.asido?mibextid=ZbWKwL"><img src="fb.png" alt="Facebook"></a>
+                    <a href="https://www.reddit.com/user/Infinite-Dark-1338/"><img src="red.webp" alt="Reddit"></a>
+                    <a href="https://github.com/Yozoru"><img src="git.png" alt="GitHub"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="projectss" class="projectss">
+    <div id="projects" class="projects-section">
+        <div class="projects">
+            <h2>PROJECTS</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <a href="https://yozoru.github.io/it0043tc01/asido_tsa2.html"><img src="tsa2.png" alt="TSA2"></a>
+                    <h4>TSA2</h4>
+                    <p>This activity was a refresher to the brain. I forgot a lot about html and css while doing this.</p>
+                </div>
+                <div class="project">
+                    <a href="https://yozoru.github.io/tsa4/asido_tsa4.html"><img src="tsa4.png" alt="TSA4"></a>
+                    <h4>TSA4</h4>
+                    <p>I had fun doing this activity because I took the time choosing which pokemon to put. PS: Im a Pokemon Fan</p>
+                </div>
+                <div class="project">
+                    <a href="https://yozoru.github.io/midterm/asido_mpe.html"><img src="midterm.png" alt="MIDTERM"></a>
+                    <h4>MIDTERM</h4>
+                    <p>This activity was a headache since It was my first time doing breakpoints. Im satisfied with the results tho.</p>
+                </div>
+                <div class="project">
+                    <a href="https://yozoru.github.io/tsa5/asido_tsa5.html"><img src="tsa5.png" alt="TSA5"></a>
+                    <h4>TSA5</h4>
+                    <p>Plain but beautiful. Wuthering Waves characters. Baizhi best girl.</p>
+                </div>
+                <div class="project">
+                    <a href="https://yozoru.github.io/tsa6/asido_cruz_tsa6.html"><img src="tsa6.png" alt="TSA6"></a>
+                    <h4>TSA6</h4>
+                    <p>My favorite activity for the subject. I had a lot of fun experimenting codes on this one.</p>
+                </div>
+                <div class="project">
+                    <a href="https://yozoru.github.io/tsa6/asido_tsa7.html"><img src="tsa7.png" alt="TSA7"></a>
+                    <h4>TSA7</h4>
+                    <p>Refresher to JavaScript. Had fun customizing the box. Late submission.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="contactss" class="contactss">
+    <div id="contact" class="contact-section">
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+            <p>If you have business inquiries or other questions, please fill out the following form to contact me or send email to <a href="mailto:contact.202312631@fit.edu.ph">202312631@fit.edu.ph</a>. Thank you.</p>
+            <p>Fields with * are required.</p>
+            <form action="#">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="body">Body *</label>
+                <textarea id="body" name="body" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <p>&copy; 2024 Van Amiel James C. Asido, All rights reserved.</p>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
